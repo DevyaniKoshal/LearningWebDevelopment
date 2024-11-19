@@ -1,4 +1,7 @@
 <style>
+  button{
+    background-color: green;
+  }
   .subscribe-button{
     background-color:  #cc0000;
     color: white;
@@ -58,6 +61,54 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.17);
 
   }
+  .stretch-button{
+    background-color: green;
+    color:white;
+    border:none;
+    height: 30px;
+    width:60px;
+    transition: width 0.2s, height 0.2s;
+    cursor:pointer;
+
+  }
+  .stretch-button:hover{
+    width:100px;
+    height: 50px;
+
+  }
+  .shadow-button{
+    border:none;
+    box-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.362);
+    height: 25px;
+    width:70px;
+    color:white;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .shadow-button:active{
+    margin-left:1px;
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+  .nums {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px; /* Shorthand for left and right margin */
+  padding: 10px 20px; /* Shorthand for inline padding */
+  transition: all 0.2s ease; /* Smooth transition for padding and margin */
+}
+
+.nums:hover {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+
+  
 </style>
 
 <button class="subscribe-button">
@@ -69,4 +120,18 @@
 <button class="twitter-button">
   Tweet
 </button>
-<!-- ///// mental health break, will see if i can get working at 430 am  -->
+<!-- exercise -->
+ <button class="page">Back</button>
+ <a href="https://youtube.com">1</a>
+ <a href="https://google.com">2</a>
+ <a href="https://amazon.com">3</a>
+ <a href="https://123greetings.com">4</a>
+ <a href="https://raaga.com">5</a>
+ <button class="page">Next</button>
+
+
+<button class="stretch-button">Stretch</button>
+<button class="shadow-button"> Shadow</button>
+<button class="nums">One</button>
+<button class="nums">Two</button>
+<button class="nums">Three</button>
